@@ -79,11 +79,3 @@
     return 1;
 }
 %end
-
-%hook UIKeyboardImpl
-+(UIEdgeInsets)deviceSpecificPaddingForInterfaceOrientation:(NSInteger)orientation inputMode:(id)mode {
-    UIEdgeInsets orig = %orig;
-    orig.bottom = 0;
-    return orig;
-}
-%end
