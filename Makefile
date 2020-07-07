@@ -7,5 +7,4 @@ TWEAK_NAME = gestures
 gestures_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += gestues13
 include $(THEOS_MAKE_PATH)/aggregate.mk
