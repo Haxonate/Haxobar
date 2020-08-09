@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+I#import <UIKit/UIKit.h>
 
 %hook CCUIStatusBarStyleSnapshot
 - (bool)isHidden {
@@ -52,30 +52,6 @@
 
 %hook SBControlCenterController
 - (unsigned long long)presentingEdge {
-    return 1;
-}
-%end
-
-%hook UITraitCollection
-- (long long)userInterfaceIdiom {
-    return 1;
-}
-%end
-
-%hook UIStatusBarForegroundView
-- (long long)idiom {
-    return 2;
-}
-%end
-
-%hook UITraitCollection
-- (long long)horizontalSizeClass {
-    return 1;
-}
-%end
-
-%hook UITraitCollection
-- (long long)verticalSizeClass {
     return 1;
 }
 %end
