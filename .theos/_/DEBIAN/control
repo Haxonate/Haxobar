@@ -1,0 +1,10 @@
+Package: com.haxonate.gestures13
+Name: Gestures13
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: Gestures13
+Maintainer: Haxonate
+Author: Haxonate
+Section: Tweaks
+Version: 0.0.2
+Installed-Size: 136
