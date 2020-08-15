@@ -1,7 +1,7 @@
 Package: com.haxonate.gestures13
 Name: Gestures13
 Depends: mobilesubstrate, preferenceloader
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: Gestures13
 Maintainer: Haxonate
