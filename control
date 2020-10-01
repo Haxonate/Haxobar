@@ -3,7 +3,7 @@ Name: Haxobar
 Depends: mobilesubstrate, preferenceloader
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Gestures13
+Description: iPhone X gestures for all devices
 Maintainer: Haxonate
 Author: Haxonate
 Section: Tweaks
