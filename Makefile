@@ -1,10 +1,12 @@
-DEBUG=0
-FINALPACKAGE=1
+TARGET := iphone:clang:latest:7.0
+INSTALL_TARGET_PROCESSES = SpringBoard
+
+
 include $(THEOS)/makefiles/common.mk
 
-export ARCHS = arm64 arm64e
-TWEAK_NAME = haxobar
-haxobar_FILES = Tweak.xm
+TWEAK_NAME = Haxobar
+
+Haxobar_FILES = Tweak.x
+Haxobar_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-include $(THEOS_MAKE_PATH)/aggregate.mk

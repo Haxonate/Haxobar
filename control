@@ -1,9 +1,9 @@
 Package: com.haxonate.haxobar
 Name: Haxobar
-Depends: mobilesubstrate, preferenceloader
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: iPhone X gestures for all devices
+Description: Gestures for all devices
 Maintainer: Haxonate
 Author: Haxonate
 Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
