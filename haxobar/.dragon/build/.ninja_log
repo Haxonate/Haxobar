@@ -1,0 +1,9 @@
+# ninja log v5
+1	156	1653944199148842570	.dragon/build/arm64/HaxobarRootListController.m.o	7cf24950677df558
+1	157	1653944199150868670	.dragon/build/arm64e/HaxobarRootListController.m.o	53560e33a7d1844
+158	480	1653944199472748192	.dragon/build/Haxobar.arm64e	4444226ad999246d
+157	480	1653944199472764209	.dragon/build/Haxobar.arm64	2626df2839f122c8
+481	502	1653944199503247621	.dragon/sign/.dragon/_/Library/PreferenceBundles/Haxobar.bundle/Haxobar.unsym	406e6a84c074fb4b
+503	510	1653944199511113599	.dragon/sign/.dragon/_/Library/PreferenceBundles/Haxobar.bundle/Haxobar.unsigned	abd20c1bc56a7c9
+510	542	1653944199542570759	.dragon/_/Library/PreferenceBundles/Haxobar.bundle/Haxobar	1d24a9c4a5b06e8a
+0	16	0	stage	6be2cc7c36bd7cea
